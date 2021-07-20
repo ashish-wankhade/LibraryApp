@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.example.library.libdb.list.listFragment"
-        android:label="fragment_list"
+        android:name="com.example.library.fragments.list.ListFragment"
+        android:label="Book List"
         tools:layout="@layout/fragment_list" >
         <action
             android:id="@+id/action_listFragment_to_addFragment"
@@ -16,8 +16,8 @@
     </fragment>
     <fragment
         android:id="@+id/addFragment"
-        android:name="com.example.library.libdb.add.addFragment"
-        android:label="fragment_add"
+        android:name="com.example.library.fragments.add.AddFragment"
+        android:label="Add Book"
         tools:layout="@layout/fragment_add" >
         <action
             android:id="@+id/action_addFragment_to_listFragment"
